@@ -1,0 +1,17 @@
+name: InyGM
+version: 1.0
+main: io.github.gm
+commands:
+  Inygm:
+    description: 插件命令
+    usage: /Inygm <subcommand>
+  gmc:
+    description: 设置游戏模式为创造模式
+  gms:
+    description: 设置游戏模式为生存模式
+  gma:
+    description: 设置游戏模式为冒险模式
+  gmsp:
+    description: 设置游戏模式为旁观者模式
+
+
