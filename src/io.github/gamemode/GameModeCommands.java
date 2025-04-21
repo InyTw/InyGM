@@ -37,7 +37,7 @@ public class GameModeCommands extends JavaPlugin {
         public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
             if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
                 loadMessagesConfig(); // 重新加载配置文件
-                sender.sendMessage("插件配置文件已重新加载！");
+                sender.sendMessage("插件已重新加载！");
                 return true;
             }
             sender.sendMessage(ChatColor.YELLOW"用法: /Inygm reload");
