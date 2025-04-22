@@ -40,7 +40,7 @@ public class GameModeCommands extends JavaPlugin {
                 sender.sendMessage("插件已重新加载！");
                 return true;
             }
-            sender.sendMessage(ChatColor.YELLOW"用法: /Inygm reload");
+            sender.sendMessage(ChatColor.YELLOW + "用法: /Inygm reload");
             return false;
         }
     }
